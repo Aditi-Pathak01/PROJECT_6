@@ -69,7 +69,7 @@
   color: #49111C;
 }
 .navlinks-right i {
-  font-size: 20px;
+  font-size: 22px;
   filter: grayscale(100%);
   cursor: pointer;
   transition: all 0.1s;
@@ -103,14 +103,12 @@
   border: 3px solid #49111C;
   border-radius: 20px;
   color: #49111C;
-  padding: 8px 25px;
+  padding: 5px 25px;
   margin: 2rem 0 0;
   font-size: 1rem;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 .small-container button:hover {
-  color: white;
+  color: darksalmon;
   background-color: #49111C;
-  border-color: #49111C;
-  transform: scale(1.1,1.1);
 }
