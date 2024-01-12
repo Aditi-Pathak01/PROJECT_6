@@ -12,7 +12,7 @@
 } 
 .navbar {
   height: 98px;
-  padding: 15px 0  0 20px;
+  padding: 20px 0  0 20px;
   display: flex;
   align-items: start;
 }
@@ -39,7 +39,7 @@
   text-decoration: none;
   color: #49111C;
   padding-bottom: 5px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: popping;
   font-style: bold;
   transition: all 0.1s;
@@ -50,10 +50,15 @@
 }
 .navlinks-right {
   text-align: end;
+  padding-right: 20px;
 }
+.navlinks-right li {
+margin: 0 1.8rem 0 0;
+}
+
 .navlinks-right input {
-  height: 35px;
-  width: 300px;
+  height: 32px;
+  width: 250px;
   outline: none;
   cursor: pointer;
   font-size: 1rem;
@@ -61,18 +66,16 @@
   border: 2.5px solid #49111C;
   border-radius: 20px;
   background: transparent;
-  margin-right: 1rem;
 }
 ::placeholder {
   font-size: 0.9rem;
   color: #49111C;
 }
 .navlinks-right i {
-  font-size: 22px;
+  font-size: 21px;
   filter: grayscale(100%);
   cursor: pointer;
   transition: all 0.1s;
-  margin: 0 1rem;
 }
 .navlinks-right i:hover {
   color: brown;
