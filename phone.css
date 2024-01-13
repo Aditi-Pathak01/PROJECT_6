@@ -1,1 +1,154 @@
-
+body {
+  overflow-x: hidden;
+}
+/* Header-Section */
+.header {
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+.navbar {
+  padding: 20px 0;
+}
+.logo {
+  width: 90px;
+}
+.navlinks-left ul li {
+  display: block;
+}
+.navlinks-left a {
+  padding-bottom: 8px;
+  margin-right: 0px;
+  font-size: 0.8rem;
+}
+.navlinks-right {
+  text-align: end;
+  padding-right: 0px;
+}
+.navlinks-right input {
+  height: 25px;
+  width: 170px;
+  font-size: 0.8rem;
+  padding: 8px;
+  border: 2px solid #49111C;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+::placeholder {
+  font-size: 0.7rem;
+}
+.navlinks-right i {
+  font-size: 18px;
+}
+/* Banner-Section */
+.banner {
+  align-items: start;
+}
+.small-container h1 {
+  font-size: 5.5vmin;
+}
+/* Category-Section */
+.heading h1 {
+  font-size: 5vmin;
+}
+#category-sec {
+  padding: 10px 0;
+  flex-direction: column;
+}
+.aside-content {
+  width: 100%;
+  height: 90%;
+}
+aside {
+  padding: 10px;
+}
+aside h1 {
+  font-size: 4vmin;
+  padding-bottom: 10px;
+  text-align: center;
+}
+aside ul li {
+  padding-bottom: 10px;
+}
+aside ul select {
+  display: inline-block;
+  margin: 0 auto;
+}
+.c-img-main {
+  width: 100%;
+  padding: 30px 0;
+}
+.img-container {
+  justify-content: space-around;
+}
+.c-box1 {
+  height: 110px;
+  width: 110px;
+  margin-bottom: 0.8rem;
+}
+.c-img-box1 {
+  width: 98px;
+  height: 58px;
+  position: relative;
+}
+.offer {
+  top : 2px;
+  font-size: 9px;
+}
+.c-box1 p {
+  font-size: 9px;
+  margin-top: 0.4rem;
+}
+.next {
+  margin-left: 40%;
+  font-size: 0.8rem;
+}
+/* Footer-Section */
+.footer {
+  height: 185px;
+}
+.footer-sec {
+  margin-top: 0rem;
+  padding: 0.8rem 0.5rem;
+}
+.first-footer {
+  width: 25%;
+}
+.first-footer p {
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.first-footer small {
+  font-size: 0.5rem;
+  line-height: 4px;
+}
+.first-footer .app-logo {
+  width: 80px;
+  margin-top: 0.3rem;
+}
+.app-logo img {
+  width: 32px;
+  margin-right: 5px;
+}
+.site-logo {
+  width: 77px;
+}
+.second-footer p {
+  font-size: 0.5rem;
+  padding: 10px;
+}
+.third-footer,.fourth-footer {
+  flex-basis: 17%;
+}
+.third-footer ul,.fourth-footer ul {
+ font-size: 0.5rem;
+ color: grey;
+}
+.third-footer ul li ,.fourth-footer ul li {
+ margin-top: 0.6rem;
+}
+.third-footer li a ,.fourth-footer li a {
+  font-size: 0.5rem;
+}
+.footer .copy {
+  font-size: 0.4rem;
+}
