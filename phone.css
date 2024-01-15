@@ -105,6 +105,35 @@ aside ul select {
   color: beige;
   margin-right: 0.9rem;
 }
+.women-sec {
+  flex-direction: column;
+}
+/* Explore */
+.explore-right a {
+  color: beige;
+}
+/* Form-page */
+.form-content {
+  width: 80%;
+}
+form label {
+  font-size: 0.9em;
+}
+form input {
+ width: 100%;
+}
+form button {
+  padding: 4px;
+  margin-right: 0rem;
+  width: 100%;
+}
+/* Category-page */
+.cat input {
+  border: 2px solid beige;
+}
+.cat input::placeholder {
+  font-size: 0.7rem;
+}
 /* Footer-Section */
 .footer {
   height: 185px;
@@ -155,3 +184,6 @@ aside ul select {
 .footer .copy {
   font-size: 0.4rem;
 }
+
+/* Category-Sectiob */
+
