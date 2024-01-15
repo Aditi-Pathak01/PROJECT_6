@@ -46,7 +46,10 @@ body {
 .small-container h1 {
   font-size: 5.5vmin;
 }
-/* Category-Section */
+/* -----------ExplorePage--------------- */
+.explore-right a {
+  color: beige;
+}
 .heading h1 {
   font-size: 5vmin;
 }
@@ -105,14 +108,17 @@ aside ul select {
   color: beige;
   margin-right: 0.9rem;
 }
+/* ------------Category-Section-------------- */
 .women-sec {
   flex-direction: column;
 }
-/* Explore */
-.explore-right a {
-  color: beige;
+.cat input {
+  border: 2px solid beige;
 }
-/* Form-page */
+.cat input::placeholder {
+  font-size: 0.7rem;
+}
+/* ------------------Form-page-------------- */
 .form-content {
   width: 80%;
 }
@@ -127,14 +133,13 @@ form button {
   margin-right: 0rem;
   width: 100%;
 }
-/* Category-page */
-.cat input {
-  border: 2px solid beige;
+/* ---------------Cart-Section------------ */
+.banner-cart {
+  height: 51vh;
+  text-align: center;
+  margin-top: 5rem;
 }
-.cat input::placeholder {
-  font-size: 0.7rem;
-}
-/* Footer-Section */
+/*---------------- Footer-Section--------- */
 .footer {
   height: 185px;
 }
@@ -184,6 +189,4 @@ form button {
 .footer .copy {
   font-size: 0.4rem;
 }
-
-/* Category-Sectiob */
 
