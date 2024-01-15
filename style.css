@@ -15,9 +15,27 @@
 #header2 {
   height: 70vh;
   background-image: url(Assets/cimgbox6.jpeg);
-   background-size: cover; 
+  background-size: cover; 
   background-position: start;
   margin-bottom: 50px;
+}
+#header3 {
+  height: 100vh;
+  background-image: url(Assets/form.avif);
+  background-size: cover; 
+  background-position: start;
+}
+#header-wishlist {
+  height: 60vh;
+  background-image: url(Assets/wishlist2.jpeg);
+  background-size: cover; 
+  background-position: start;
+}
+#header-category {
+  height: 30vh;
+  background-image: url(Assets/category.avif);
+  background-size: cover; 
+  background-position: center;
 }
 .navbar {
   height: 98px;
@@ -91,6 +109,150 @@
   filter : grayscale(0);
   transform: scale(1.1,1.2);
 }
+/* Category-page */
+.cat a {
+  color: white;
+}
+.cat input {
+  border: 3px solid white;
+  color: white;
+  width: 500px;
+  text-align: center;
+  height: 40px;
+}
+.cat input::placeholder {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: white;
+}
+.cat-right a:hover {
+  border-bottom: 2px solid beige;
+}
+.heading-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.3rem;
+}
+.heading-category h1 {
+  font-size: 4vmin;
+  color: #464141;
+  margin-right: 1rem;
+  transition: all 0.3s ease 0;
+  cursor: pointer;
+}
+.heading-category h1:hover {
+  color: magenta;
+}
+.h-imgbox {
+  width: 45px;
+}
+.h-imgbox img {
+  width: 100%;
+}
+.women-sec {
+  margin: 20px 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: lightgrey;
+}
+.col-5 {
+  flex: 1;
+  padding: 20px;
+  cursor: pointer;
+}
+.women-sec .four,.women-sec .two {
+  background-color: #efefef;
+}
+.col-5 a {
+  text-decoration: none;
+}
+.col-5-content ul {
+  list-style-type: none;
+}
+.col-5-content ul h3,.col-5 h3 {
+  color: #AF3B6E;
+  font-family: popping;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+.col-5-content ul li {
+  color: grey;
+  transition: all 0.3s ease 0;
+  margin-bottom: 0.3rem;
+  font-family: popping;
+  font-weight: light;
+}
+.col-5-content ul li:hover {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+ }
+ .col-5-content hr {
+  width: 60%;
+  margin: 1rem 0;
+}
+/* Form-Links */
+.form a,form label {
+  color: beige;
+}
+.form-left a:hover {
+  border-bottom: 2px solid beige;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58vh;
+  margin-top: 4.5rem;
+}
+.form-content {
+  border: 1px solid white;
+  width: 45%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+}
+form {
+  width: 55%;
+}
+form input {
+  outline: none;
+  display: block;
+  width: 90%;
+  margin-bottom: 0.8rem;
+  height: 27px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #49111C;
+  border: none;
+}
+.form-content input::placeholder {
+  color: grey;
+}
+form label {
+  font-size: 1.5rem;
+}
+form button {
+  border: 4px solid pink;
+  padding: 7px 15px;
+  background: white;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  color: #AF3B6E;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0.1s;
+}
+form button:hover {
+  transform: scale(1.1,1.1);
+}
 /* Banner-Section */
 .banner {
   width: 100%;
@@ -99,22 +261,44 @@
   justify-content: start;
   align-items: center;
 }
+/* Banner-Explore */
 .b2 {
- width: 100%;
- height: 55vh;
- display: flex;
- justify-content: center;
- align-items: center;
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+/* Banner-Wishlist */
+.bwl {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
 .small-container {
   display: flex;
   flex-direction: column;
   padding: 2rem;
 }
-.small-container h1, .sc2 h1{
- font-size: 6vmin;
- font-family: popping;
- color: #49111C;
+.small-container h1,.sc2 h1 {
+  font-size: 6vmin;
+  font-family: popping;
+  color: #49111C;
+}
+.small-container h2 {
+  color: #49111C;
+  text-align: center;
+  font-family: popping;
+}
+/* Banner-Wishlist */
+.scwl {
+  text-align: center;
+  transition: all 0.5s ease 0.1s;
+}
+.scwl:hover {
+  transform: scale(1.2,1.2);
 }
 .sc2 h1 {
   color: white;
@@ -135,6 +319,105 @@
   background-color: #49111C;
   box-shadow: 0 0 10px 1px #827e7e;
 }
+/* Wishlist-Section */
+.wishlist-sec {
+  margin: 2rem 2rem;
+  border: 1px solid rgb(240, 233, 233);
+  box-shadow: 0 0 10px 0.5px lightgrey;
+}
+.wishlist-container {
+  padding: 20px 0;
+}
+.wishlist-container h1 {
+  font-family: popping;
+  margin-bottom: 0.9rem;
+  color: #464141;
+  padding-left: 45px;
+}
+.wishlist-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.wlbox1 {
+  width: 260px;
+  height: 280px;
+  position: relative;
+  cursor: pointer
+}
+.wlbox1 img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+.overlay {
+  height: 90%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(#fff,#043565);
+  opacity: 0;
+  transition: all 0.5s ease 0.1s;
+}
+.wlbox1:hover .overlay {
+  opacity: 0.6;
+}
+.desc {
+  position: absolute;
+  bottom: 0;
+  left: 23px;
+  opacity: 0;
+  transition: all 0.6s ease 0.1s;
+}
+.desc p {
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-family: popping;
+}
+.desc hr {
+  width: 50%;
+  margin: 0.5rem auto;
+}
+.wlbox1:hover .desc {
+  opacity: 1;
+  transform: translateY(-130px);
+}
+.subtitle  p {
+  text-align: center;
+  font-size: 1rem;
+  color: #043565;
+  font-family: popping;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  font-weight: 600;
+}
+.subtitle  p:hover {
+  text-decoration: underline;
+  transform: scale(1.1,1.1);
+}
+.right-icon i {
+  font-size: 22px;
+  color: grey;
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease 0.1s;
+  cursor: pointer;
+}
+.right-icon i:hover {
+  color: black;
+}
+.right-icon a {
+  font-size: 12px;
+  color: grey;
+  text-decoration: none;
+  transition: all 0.4s ease 0;
+}
+.right-icon a:hover {
+  text-decoration: underline;
+}
+/* Offer-Section */
 .heading h1 {
   text-align: center;
   color: #49111C;
@@ -226,7 +509,7 @@ aside ul select {
   font-size: 12px;
 }
 .c-box1 p {
-  color:  #af596a;
+  color: #af596a;
   text-align: center;
   font-size: 13px;
   margin-top: 0.7rem;
@@ -234,6 +517,19 @@ aside ul select {
   font-weight: bold;
   font-family: popping;
   transition: all 0.3s;
+}
+.wl button {
+  color: #AF3B6E;
+  border: 0.5px solid black;
+  font-size: 0.7rem;
+  padding: 5px 10px;
+  width: 198px;
+  display: none;
+  cursor: pointer;
+}
+.c-box1:hover button {
+  display: block;
+  transform: translateY(-60px);
 }
 .c-box1 p:hover {
   text-decoration: underline;
